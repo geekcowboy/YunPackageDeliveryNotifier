@@ -10,9 +10,9 @@ from email.mime.multipart import MIMEMultipart
 # Create the container (outer) email message.
 msg = MIMEMultipart()
 msg['Subject'] = 'Package Delivered.'
-from_addr = 'geekcowboy@gmail.com'
-PASSWORD = 'zxc474asd'
-to_addr = 'geekcowboy@gmail.com'
+from_addr = 'your-email-address@gmail.com'
+PASSWORD = 'yourpassword'
+to_addr = 'destination-email-address@gmail.com'
 msg['From'] = from_addr
 msg['To'] = to_addr
 msg.preamble = 'Your package has arrived.'
